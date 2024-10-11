@@ -5,6 +5,8 @@ primes = []
 not_primes = []
 n = (len(numbers))
 for i in range(n):
+    if numbers[i] == 1:
+        continue
     k = 0
 #    print(numbers[i])
     for j in range(1, numbers[i]):
